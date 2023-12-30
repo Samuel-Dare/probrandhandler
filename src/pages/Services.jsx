@@ -1,9 +1,8 @@
 import React from 'react';
 import Header2 from '../ui/Header2';
 import { useScreenSize } from '../contexts/ScreenSize';
-import Style2 from '../ui/Style2';
 import ServiceBranding from '../ui/ServiceBranding';
-import ServiceCategories from '../ui/serviceCategories';
+import ServiceCategories from '../ui/ServiceCategories';
 import ServiceMarketing from '../ui/ServiceMarketing';
 import ServiceOthers from '../ui/ServiceOthers';
 import Advert4 from '../ui/Advert4';
