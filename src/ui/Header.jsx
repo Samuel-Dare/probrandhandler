@@ -76,9 +76,7 @@ function Header() {
     : 'assets/home.png';
 
   return (
-    <div
-      className={`h-[400px] md:h-screen ${isSmallScreen ? 'h-auto' : 'mb-0'}`}
-    >
+    <div className={`h-auto md:h-screen ${isSmallScreen ? 'h-auto' : 'mb-0'}`}>
       <div
         className=" h-full w-full justify-center md:flex md:items-center 
       "
@@ -87,6 +85,7 @@ function Header() {
           backgroundSize: 'cover',
           backgroundPositionY: 'top',
           backgroundPositionX: 'left',
+          height: isSmallScreen ? '250px' : '',
         }}
       >
         <main className="hidden md:block">
