@@ -12,10 +12,10 @@ function ContactUs() {
 
   return (
     <div>
-      <Header2 bannerImage={bannerImage} />
+      <Header2 bannerImage={bannerImage} title="Contact Us" />
 
       <div className="container mx-auto mt-8 p-4">
-        <h1 className="mb-8 text-center text-3xl font-bold">Contact Us</h1>
+        {/* <h1 className="mb-8 text-center text-3xl font-bold">Contact Us</h1> */}
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
           {/* Contact Form */}
@@ -82,15 +82,19 @@ function ContactUs() {
           <div>
             <h2 className="mb-4 text-xl font-bold">Our Contact Information</h2>
             <p className="text-gray-700 mb-2">
-              <span className="font-semibold">Email:</span> info@example.com
+              <span className="font-semibold">Email:</span>{' '}
+              <a href="mailto:probrandhandlers@qualityservice.com">
+                probrandhandlers@qualityservice.com
+              </a>
             </p>
             <p className="text-gray-700 mb-2">
-              <span className="font-semibold">Phone:</span> +1 (123) 456-7890
+              <span className="font-semibold">Phone:</span>{' '}
+              <a href="tel:+2348154005211">+2348154005211</a>
             </p>
-            <p className="text-gray-700">
-              <span className="font-semibold">Address:</span> 123 Main Street,
-              Cityville
-            </p>
+            {/* <p className="text-gray-700">
+              <span className="font-semibold">Address:</span> 123 Jide Str,
+              Lekki-Ajah, Lagos
+            </p> */}
           </div>
         </div>
       </div>

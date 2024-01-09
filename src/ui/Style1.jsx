@@ -21,7 +21,7 @@ function Style1({
           reverseOrder ? 'md:order-2' : 'md:order-1'
         }`}
       >
-        <h1 className="mb-5 text-2xl font-semibold text-colorBrand1">
+        <h1 className="mb-5 text-2xl font-semibold text-colorBrand2">
           {title}
         </h1>
         {paragraph && <p className="mb-3">{paragraph}</p>}
@@ -29,36 +29,33 @@ function Style1({
         <ul>
           {l1 && (
             <li>
-              <span className="text-colorBrand2">&#10003;</span>
+              <span className="pr-2 text-colorBrand2">&#10003;</span>
               {l1}
             </li>
           )}
 
           {l2 && (
             <li>
-              {' '}
-              <span className="text-colorBrand2">&#10003;</span> {l2}
+              <span className="pr-2 text-colorBrand2">&#10003;</span> {l2}
             </li>
           )}
 
           {l3 && (
             <li>
-              {' '}
-              <span className="text-colorBrand2">&#10003;</span> {l3}
+              <span className="pr-2 text-colorBrand2">&#10003;</span> {l3}
             </li>
           )}
 
           {l4 && (
             <li>
-              {' '}
-              <span className="text-colorBrand2">&#10003;</span> {l4}
+              <span className="pr-2 text-colorBrand2">&#10003;</span> {l4}
             </li>
           )}
 
           {l5 && (
             <li>
               {' '}
-              <span className="text-colorBrand2">&#10003;</span> {l5}
+              <span className="pr-2 text-colorBrand2">&#10003;</span> {l5}
             </li>
           )}
         </ul>

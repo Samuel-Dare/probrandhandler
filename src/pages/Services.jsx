@@ -16,7 +16,7 @@ function Services() {
 
   return (
     <div>
-      <Header2 bannerImage={bannerImage} />
+      <Header2 bannerImage={bannerImage} label="services" />
       <ServiceCategories />
       <ServiceBranding />
       <ServiceMarketing />

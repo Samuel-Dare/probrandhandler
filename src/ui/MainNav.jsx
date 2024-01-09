@@ -9,7 +9,7 @@ export default function MainNav() {
     <nav
       className={`${
         isSmallScreen ? 'flex md:hidden' : 'hidden md:flex'
-      } fixed left-0 right-0 top-0 z-10 items-center justify-between bg-colorGrey50 px-10 py-10`}
+      } fixed left-0 right-0 top-0 z-10 items-center justify-between bg-colorGrey0 px-10 py-5`}
     >
       <Logo />
       <NavListItems />

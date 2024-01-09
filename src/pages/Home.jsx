@@ -8,10 +8,15 @@ import Advert3 from '../ui/Advert3';
 export default function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Advert1 />
       <WhyChooseUs />
       <Advert3 />
+      <Advert2 /> */}
+
+      <Header />
+      <WhyChooseUs />
+      <Advert1 />
       <Advert2 />
     </div>
   );

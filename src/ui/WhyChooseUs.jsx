@@ -3,9 +3,9 @@ const WhyChooseUs = () => {
     <div className="p-10 md:p-16 lg:p-20">
       <div className="mx-auto">
         <h2 className="mb-6 text-center text-3xl font-bold md:text-4xl">
-          Why You Should Choose Us?
+          Why You Should <span className="text-colorBrand2">Choose Us?</span>
         </h2>
-        <p className="mb-10 text-center text-base">
+        <p className="mb-10 text-justify text-base">
           It's noteworthy to recognize that many businesses fall short of
           expectations, despite ample market opportunities for their products or
           services. This shortfall often stems from the use of generic
@@ -19,13 +19,14 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
           <div className="flex flex-col">
             <img
-              src="/assets/img.jpg"
+              src="/assets/brand.png"
               width="300"
               alt="Service 1"
               className="mx-auto mb-4 h-auto rounded-md"
             />
             <h3 className="mb-5 text-2xl font-semibold">
-              &#10003; Compelling Brand Design
+              &#10003;{' '}
+              <span className="text-colorBrand2">Compelling Brand Design</span>
             </h3>
             <p>
               {' '}
@@ -38,13 +39,16 @@ const WhyChooseUs = () => {
 
           <div className="flex flex-col">
             <img
-              src="/assets/img.jpg"
+              src="/assets/marketing.png"
               alt="Service 2"
               width="300"
               className="mx-auto mb-4 h-auto rounded-md"
             />
             <h3 className="mb-5 text-2xl font-semibold">
-              &#10003; Strategic Digital Marketing Campaigns
+              &#10003;{' '}
+              <span className="text-colorBrand2">
+                Digital Marketing Campaigns Strategic
+              </span>
             </h3>
             <p className="text-gray-600">
               Rejecting one-size-fits-all solutions, we collaborate closely with
@@ -56,13 +60,14 @@ const WhyChooseUs = () => {
 
           <div className="flex flex-col">
             <img
-              src="/assets/img.jpg"
+              src="/assets/measurable-result.png"
               alt="Service 2"
               width="300"
               className="mx-auto mb-4 h-auto rounded-md"
             />
             <h3 className="mb-5 text-2xl font-semibold">
-              &#10003; Measurable Results
+              &#10003;{' '}
+              <span className="text-colorBrand2">Measurable Results</span>
             </h3>
             <p className="text-gray-600">
               Our commitment to transparency and accountability is reflected in
@@ -74,13 +79,16 @@ const WhyChooseUs = () => {
 
           <div className="flex flex-col">
             <img
-              src="/assets/img.jpg"
+              src="/assets/partnership.png"
               alt="Service 2"
               width="300"
               className="mx-auto mb-4 h-auto rounded-md"
             />
             <h3 className="mb-5 text-2xl font-semibold">
-              &#10003; Collaborative Partnership
+              &#10003;{' '}
+              <span className="text-colorBrand2">
+                Collaborative Partnership
+              </span>
             </h3>
             <p className="text-gray-600">
               Beyond being service providers, we are your growth partners.
@@ -90,7 +98,7 @@ const WhyChooseUs = () => {
             </p>
           </div>
         </div>
-        <p className="mt-10 text-center text-base">
+        <p className="mt-5 text-justify text-base">
           At Probrand Handlers, we take it upon ourselves to ensure your
           business boasts a professional brand, offering comprehensive branding
           and marketing solutions. We empower SMEs to establish meaningful

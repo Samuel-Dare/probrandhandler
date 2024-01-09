@@ -14,7 +14,7 @@ const Style2 = ({
   return (
     <div className="p-10 md:p-16 lg:p-20">
       <div className="mx-auto">
-        <h2 className="mb-6 text-center text-3xl font-bold md:text-4xl">
+        <h2 className="mb-6 text-center text-3xl font-bold text-colorBrand2 md:text-4xl">
           {title}
         </h2>
         {p1 && <p className="mb-10 text-center text-base">{p1}</p>}
@@ -23,29 +23,29 @@ const Style2 = ({
           {subTitle1 && body1 && (
             <div className="flex flex-col">
               <img
-                src="/assets/img.jpg"
+                src="/assets/branding-solutions.png"
                 width="300"
                 alt="Service 1"
                 className="mx-auto mb-4 h-auto rounded-md"
               />
               <h3 className="mb-5 text-2xl font-semibold">
-                &#10003; {subTitle1}
+                &#10003; <span className="text-colorBrand2">{subTitle1}</span>
               </h3>
-              <p>{body1}</p>
+              <p className="text-justify">{body1}</p>
             </div>
           )}
           {subTitle2 && body2 && (
             <div className="flex flex-col">
               <img
-                src="/assets/img.jpg"
+                src="/assets/marketing-solutions.png"
                 width="300"
                 alt="Service 1"
                 className="mx-auto mb-4 h-auto rounded-md"
               />
               <h3 className="mb-5 text-2xl font-semibold">
-                &#10003; {subTitle2}
+                &#10003; <span className="text-colorBrand2">{subTitle2}</span>
               </h3>
-              <p>{body2}</p>
+              <p className="text-justify">{body2}</p>
             </div>
           )}
           {subTitle3 && body3 && (
@@ -57,9 +57,9 @@ const Style2 = ({
                 className="mx-auto mb-4 h-auto rounded-md"
               />
               <h3 className="mb-5 text-2xl font-semibold">
-                &#10003; {subTitle3}
+                &#10003; <span className="text-colorBrand2">{subTitle3}</span>
               </h3>
-              <p>{body3}</p>
+              <p className="text-justify">{body3}</p>
             </div>
           )}
 
@@ -72,13 +72,13 @@ const Style2 = ({
                 className="mx-auto mb-4 h-auto rounded-md"
               />
               <h3 className="mb-5 text-2xl font-semibold">
-                &#10003; {subTitle4}
+                &#10003; <span className="text-colorBrand2">{subTitle4}</span>
               </h3>
-              <p>{body4}</p>
+              <p className="text-justify">{body4}</p>
             </div>
           )}
         </div>
-        {p2 && <p className="mt-10 text-center text-base">{p2}</p>}
+        {p2 && <p className="mt-10 text-base">{p2}</p>}
       </div>
     </div>
   );

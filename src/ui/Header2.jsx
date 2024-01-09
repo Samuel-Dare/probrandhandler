@@ -1,16 +1,27 @@
-function Header2({ children, bannerImage }) {
+export function HeaderTitle({ title }) {
   return (
-    <div className="h-[400px] md:h-screen">
+    <h1 className="rounded-md text-3xl font-semibold text-colorGrey0 md:text-5xl">
+      {title}
+    </h1>
+  );
+}
+
+function Header2({ label, title, bannerImage }) {
+  return (
+    <div className="h-[500px] md:h-screen">
       <div
-        className="h-full w-full justify-center md:flex  md:items-center 
-        "
+        className={`flex h-full w-full 
+         ${
+           title === 'Contact Us' ? 'items-start pt-[50px]' : 'items-center'
+         } justify-center md:items-center md:justify-center`}
         style={{
           backgroundImage: `url(${bannerImage})`,
           backgroundSize: 'cover',
-          backgroundPositionY: 'center',
+          backgroundPositionY: `${label === 'services' ? 'top' : 'center'}`,
+          backgroundPositionX: `${label === 'services' ? 'right' : ''}`,
         }}
       >
-        {children}
+        {title ? <HeaderTitle title={title} /> : ''}
       </div>
     </div>
   );

@@ -1,28 +1,45 @@
 import React from 'react';
 import Header2 from '../ui/Header2';
 import { useScreenSize } from '../contexts/ScreenSize';
+import ArrowIcon from '../utils/ArrowIcon';
 
 function HowItWorks() {
   const steps = [
     {
-      title: 'Step 1',
-      description: 'Sign up for an account.',
-      icon: '📝',
+      title: 'Initial Consultation',
+      description:
+        'We conduct a thorough consultation to understand your business, goals, values, and target audience. Then, we gather insights into the kind of industry of your business, competitors, and unique selling points.',
+      icon: '👩‍🏫',
     },
     {
-      title: 'Step 2',
-      description: 'Explore our features and services.',
-      icon: '🚀',
+      title: 'Brand Audit and Strategy Design',
+      description:
+        'We embark on an evaluation of the existing brand elements (logo, color palette, messaging, etc.), if applicable, and develop a clear and compelling brand strategy.',
+      icon: '🎨',
     },
     {
-      title: 'Step 3',
-      description: 'Customize your profile and preferences.',
-      icon: '⚙️',
+      title: 'Creation of Brand Guidelines and Identity',
+      description:
+        'We design or refine the visual elements of the brand, including the logo, color scheme, typography, and imagery, and create comprehensive brand guidelines outlining the proper usage of the logo, color codes, typography, and brand messaging.',
+      icon: '🆔',
     },
     {
-      title: 'Step 4',
-      description: 'Start using our platform and enjoy the benefits!',
-      icon: '💼',
+      title: 'Craft Brand Storytelling',
+      description:
+        'Your brand needs a story, so we develop a narrative that emotionally connects the brand with its target audience and resonates with the values and aspirations of the intended market.',
+      icon: '👻',
+    },
+    {
+      title: 'Implement Marketing Strategies',
+      description:
+        'To better create awareness and put your business in the faces of your audience, we devise marketing strategies that align with the brand strategy and target the right audience.',
+      icon: '💹',
+    },
+    {
+      title: 'Support, Monitor, and Evaluate your Brand Progress',
+      description:
+        'Implement tracking mechanisms to monitor the performance of branding and marketing efforts, and measure the processes and support to ensure the brand remains relevant and adapts to market changes.',
+      icon: '📏',
     },
   ];
 
@@ -37,16 +54,33 @@ function HowItWorks() {
       <Header2 bannerImage={bannerImage} />
 
       <div className="container mx-auto mt-8 p-4">
-        <h1 className="mb-8 text-center text-3xl font-bold">How It Works</h1>
+        <h1 className="mb-8 text-center text-3xl font-bold text-colorBrand2">
+          How It Works
+        </h1>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        {/* <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4"> */}
+        <div className="">
           {steps.map((step, index) => (
-            <div key={index} className="text-center">
-              <div className="bg-blue-500 text-white mb-4 inline-block rounded-full p-4">
-                <span className="text-2xl">{step.icon}</span>
+            <div className="">
+              <div
+                key={index}
+                className="space-y-3 border border-colorBrand2 p-10"
+              >
+                <div className="space-x-5">
+                  <span className="text-2xl">{step.icon}</span>
+                  <h2 className="mb-2 inline-block text-xl font-bold">
+                    {step.title}
+                  </h2>
+                </div>
+                <p className="text-gray-700">{step.description}</p>
               </div>
-              <h2 className="mb-2 text-xl font-bold">{step.title}</h2>
-              <p className="text-gray-700">{step.description}</p>
+              <div
+                className={`m-auto mb-20 w-0 ${
+                  index === steps.length - 1 ? 'hidden' : 'block'
+                }`}
+              >
+                <ArrowIcon />
+              </div>
             </div>
           ))}
         </div>

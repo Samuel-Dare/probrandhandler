@@ -32,41 +32,37 @@ function AboutUs() {
 
   return (
     <div>
-      <Header2 bannerImage={bannerImage} />
+      <Header2 bannerImage={bannerImage} title="About Us" />
 
       <div className="container mx-auto mt-8 p-4">
-        <h1 className="mb-8 text-center text-3xl font-bold">About Us</h1>
+        {/* <h1 className="mb-8 text-center text-3xl font-bold">About Us</h1> */}
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        {/* <div className="grid grid-cols-1 gap-8 md:grid-cols-2"> */}
+        <div className="">
           {/* Company Overview */}
           <div>
-            <h2 className="mb-4 text-xl font-bold">Our Story</h2>
+            <h2 className="mb-4 text-xl font-bold">Who Are We?</h2>
+
+            <p className="text-gray-700 mb-4">
+              At Probrand Handlers, we believe that every small and medium-sized
+              business (SME) possesses the potential for success. Since our
+              establishment in 2018, initially as a digital marketing company,
+              we've gained valuable insights into what is practical and
+              effective. Our clients have consistently expressed satisfaction
+              with our services. As a company that has expanded to offer
+              branding solutions, our passion remains dedicated to assisting
+              SMEs in establishing robust brands and fostering meaningful and
+              profitable connections with their target audience.
+            </p>
             <img
               src="assets/img.jpg"
               alt=""
-              className="mb-4 h-40 w-full rounded object-cover"
+              className="h-40 w-full rounded object-cover"
             />
-            <p className="text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-              odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-              Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
-              libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Integer nec odio. Praesent libero.
-              Sed cursus ante dapibus diam. libero. Sed cursus ante dapibus
-              diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
-              libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Integer nec odio. Praesent libero.
-              Sed cursus ante dapibus diam.
-            </p>
           </div>
 
           {/* Team Members */}
-          <div>
+          {/* <div>
             <h2 className="mb-4 text-xl font-bold">Our Team</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               {teamMembers.map((member, index) => (
@@ -82,7 +78,7 @@ function AboutUs() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

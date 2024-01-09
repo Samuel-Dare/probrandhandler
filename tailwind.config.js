@@ -6,7 +6,7 @@ module.exports = {
       sans: 'Roboto Mono, monospace',
     },
     colors: {
-      colorGrey0: '#f9fafb',
+      colorGrey0: '#ffffff',
       colorGrey50: '#f3f4f6',
       colorGrey100: '#e5e7eb',
       colorGrey200: '#d1d5db',

@@ -20,9 +20,9 @@ export function HeaderOverlayContent() {
     console.log(data);
   };
   return (
-    <div className=" flex flex-col items-center justify-center space-y-8 rounded-md bg-colorGrey100 px-5 py-10 shadow-lg md:h-[300px] md:w-[600px] md:px-3 md:py-20 md:text-2xl">
-      <h1 className="text-1xl font-bold text-colorGrey800 md:text-2xl">
-        How Can We Help You?
+    <div className=" flex flex-col items-center justify-center space-y-5 bg-colorGrey100 px-5 py-10 shadow-lg md:w-[580px]  md:p-5 md:text-2xl">
+      <h1 className="text-1xl font-bold text-colorGrey800 md:text-3xl">
+        Get Your Dream Brand
       </h1>
       <p className="w-4/5 border-b border-colorGrey400"></p>
 
@@ -78,7 +78,7 @@ function Header() {
   return (
     <div className={`h-auto md:h-screen ${isSmallScreen ? 'h-auto' : 'mb-0'}`}>
       <div
-        className=" h-full w-full justify-center md:flex md:items-center 
+        className=" h-full w-full justify-center md:flex md:items-end 
       "
         style={{
           backgroundImage: `url(${bannerImage})`,
