@@ -6,8 +6,8 @@ import { useScreenSize } from '../contexts/ScreenSize';
 import { useOverlay } from '../contexts/OverlayContext';
 import Animation from '../utils/Animation';
 
-const primaryFull =
-  'inline-block text-sm bg-colorBrand1 font-semibold uppercase tracking-wide text-colorGrey50 transition-colors duration-300 hover:bg-colorBrand2 focus:bg-colorBrand2 focus:outline-none focus:ring focus:ring-colorBrand2 focus:ring-offset-2 disabled:cursor-not-allowed w-full rounded-none px-4 py-3 md:px-6 md:py-4 md:text-lg';
+// const primaryFull =
+//   'inline-block text-sm bg-colorBrand1 font-semibold uppercase tracking-wide text-colorGrey50 transition-colors duration-300 hover:bg-colorBrand2 focus:bg-colorBrand2 focus:outline-none focus:ring focus:ring-colorBrand2 focus:ring-offset-2 disabled:cursor-not-allowed w-full rounded-none px-4 py-3 md:px-6 md:py-4 md:text-lg';
 
 export function HeaderOverlayContent() {
   const navigate = useNavigate();

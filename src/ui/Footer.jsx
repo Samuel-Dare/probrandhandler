@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -16,6 +16,9 @@ function Footer() {
           <a href="https://www.instagram.com/probrandhandler?igsh=MWgxM3VmeTJsOXE4cQ==">
             <FaInstagram />
           </a>
+          {/* <a href="mailto:probrandhandler@qualityservice.com">
+            <FaEnvelope />
+          </a> */}
         </ul>
       </div>
 
