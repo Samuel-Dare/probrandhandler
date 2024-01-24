@@ -5,7 +5,7 @@ function Advert1() {
     <div className="px-5">
       <Style1
         title="Why You Need A Brand?"
-        image="assets/img.jpg"
+        image="assets/111.png"
         paragraph="If you own or manage a business, it's imperative to establish a
         professional brand to showcase your enterprise. In today's competitive
         market, standing out as a small or medium-scale enterprise demands

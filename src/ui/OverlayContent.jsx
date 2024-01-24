@@ -8,7 +8,7 @@ function OverlayContent({ children, values, source }) {
     <>
       {isOverlayVisible && (
         <div className="fixed left-0 top-0 z-10 flex h-full w-full justify-center overflow-y-auto p-5">
-          <div className="relative z-20 h-fit w-full bg-colorGrey500 p-10 md:w-[400px]">
+          <div className="relative z-20 h-fit w-full bg-colorGrey300 p-10 md:w-[400px]">
             <div className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full border-2 border-colorBrand1 bg-colorBrand1 hover:border-colorBrand2 hover:bg-colorBrand2">
               <Button type="pointer" onClick={handleCloseOverlay}>
                 ✖

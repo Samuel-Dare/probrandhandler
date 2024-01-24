@@ -5,7 +5,7 @@ import ServiceBranding from '../ui/ServiceBranding';
 import ServiceCategories from '../ui/ServiceCategories';
 import ServiceMarketing from '../ui/ServiceMarketing';
 import ServiceOthers from '../ui/ServiceOthers';
-import Advert4 from '../ui/Advert4';
+import Advert4 from '../ui/Advert4Four';
 
 function Services() {
   const { isSmallScreen } = useScreenSize();

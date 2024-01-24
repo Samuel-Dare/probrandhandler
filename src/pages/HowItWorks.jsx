@@ -2,6 +2,7 @@ import React from 'react';
 import Header2 from '../ui/Header2';
 import { useScreenSize } from '../contexts/ScreenSize';
 import ArrowIcon from '../utils/ArrowIcon';
+import Animation from '../utils/Animation';
 
 function HowItWorks() {
   const steps = [
@@ -54,18 +55,17 @@ function HowItWorks() {
       <Header2 bannerImage={bannerImage} />
 
       <div className="container mx-auto mt-8 p-4">
-        <h1 className="mb-8 text-center text-3xl font-bold text-colorBrand2">
-          How It Works
-        </h1>
+        <Animation type="1">
+          <h1 className="mb-8 text-center text-3xl font-bold text-colorBrand2">
+            How It Works
+          </h1>
+        </Animation>
 
         {/* <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4"> */}
-        <div className="">
+        <div>
           {steps.map((step, index) => (
-            <div className="">
-              <div
-                key={index}
-                className="space-y-3 border border-colorBrand2 p-10"
-              >
+            <Animation key={index} type="1">
+              <div className="space-y-3 border border-colorBrand2 p-10">
                 <div className="space-x-5">
                   <span className="text-2xl">{step.icon}</span>
                   <h2 className="mb-2 inline-block text-xl font-bold">
@@ -81,7 +81,7 @@ function HowItWorks() {
               >
                 <ArrowIcon />
               </div>
-            </div>
+            </Animation>
           ))}
         </div>
       </div>

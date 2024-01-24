@@ -2,6 +2,7 @@ import React from 'react';
 import Header2 from '../ui/Header2';
 import { useScreenSize } from '../contexts/ScreenSize';
 import Button from '../ui/Button';
+import Animation from '../utils/Animation';
 
 function ContactUs() {
   const { isSmallScreen } = useScreenSize();
@@ -19,7 +20,7 @@ function ContactUs() {
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
           {/* Contact Form */}
-          <div>
+          <Animation type="2">
             <form className="space-y-4">
               <div>
                 <label
@@ -76,15 +77,15 @@ function ContactUs() {
                 Submit
               </Button>
             </form>
-          </div>
+          </Animation>
 
           {/* Contact Information */}
-          <div>
+          <Animation type="3">
             <h2 className="mb-4 text-xl font-bold">Our Contact Information</h2>
             <p className="text-gray-700 mb-2">
               <span className="font-semibold">Email:</span>{' '}
               <a href="mailto:probrandhandlers@qualityservice.com">
-                probrandhandlers@qualityservice.com
+                probrandhandler@qualityservice.com
               </a>
             </p>
             <p className="text-gray-700 mb-2">
@@ -95,7 +96,7 @@ function ContactUs() {
               <span className="font-semibold">Address:</span> 123 Jide Str,
               Lekki-Ajah, Lagos
             </p> */}
-          </div>
+          </Animation>
         </div>
       </div>
     </div>

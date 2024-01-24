@@ -5,7 +5,7 @@ function ServiceBranding() {
     <div className="px-5">
       <Style1
         title="Branding Solutions"
-        image="assets/img.jpg"
+        image="assets/444.png"
         l1="Brand Strategy: Assisting SMEs in crafting a distinct and compelling brand strategy that sets them apart from competitors and resonates with their target audience."
         l2="Brand Identity: Creating a visually appealing and cohesive brand identity encompassing a logo, color palette, typography, and messaging."
         l3="Brand Guidelines: Develop comprehensive brand guidelines to ensure consistency in all marketing and communication materials."

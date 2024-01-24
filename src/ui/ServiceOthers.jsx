@@ -5,7 +5,7 @@ function ServiceOthers() {
     <div className="px-5">
       <Style1
         title="Other Services"
-        image="assets/img.jpg"
+        image="assets/555.png"
         l1="
               Website Design and Development: Crafting user-friendly, visually captivating websites optimized for search engines.
               "

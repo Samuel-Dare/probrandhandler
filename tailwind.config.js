@@ -36,17 +36,6 @@ module.exports = {
       colorShadowMd: 'var(--shadow-md)',
       colorShadowLg: 'var(--shadow-lg)',
 
-      colorBrand50: '#FFFF00',
-      colorBrand100: '#FFFF00',
-      colorBrand200: '#FFFF00',
-      colorBrand300: '#FFFF00',
-      colorBrand400: '#FFFF00',
-      colorBrand500: '#FFFF00',
-      colorBrand600: '#FFFF00',
-      colorBrand700: '#FFFF00',
-      colorBrand800: '#FFFF00',
-      colorBrand900: '#FFFF00',
-
       colorBrand1: '#0f0147',
       colorBrand2: '#0d8bff',
     },

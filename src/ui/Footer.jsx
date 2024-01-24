@@ -5,20 +5,33 @@ function Footer() {
     <footer className="mt-10 flex flex-col gap-3 bg-colorBrand1 p-10 text-colorGrey300 md:flex-row md:justify-between md:p-16 lg:p-20">
       <div>
         <h3 className="text-h3">Follow us on social media</h3>
+        <br />
         <ul className="flex gap-5">
-          <FaFacebook />
-          <FaTwitter />
-          <FaInstagram />
+          <a href="https://www.facebook.com/probrandhandlers">
+            <FaFacebook />
+          </a>
+          <a href="https://twitter.com/probrandhandler">
+            <FaTwitter />
+          </a>
+          <a href="https://www.instagram.com/probrandhandler?igsh=MWgxM3VmeTJsOXE4cQ==">
+            <FaInstagram />
+          </a>
         </ul>
       </div>
 
       <div>
-        <h3 className="text-h3">Discover</h3>
+        <h3 className="font-bold">Our Services</h3>
         <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum dolor.</li>
+          <li>Branding Solutions</li>
+          <li>Marketing Solutions</li>
+        </ul>
+        <br />
+        <h3 className="font-bold">Other Services</h3>
+        <ul>
+          <li>Website Design</li>
+          <li>Content Creation</li>
+          <li>Social Media Management</li>
+          <li>Business Expansion</li>
         </ul>
       </div>
 

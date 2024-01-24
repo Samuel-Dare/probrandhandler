@@ -1,6 +1,7 @@
 import React from 'react';
 import Header2 from '../ui/Header2';
 import { useScreenSize } from '../contexts/ScreenSize';
+import Animation from '../utils/Animation';
 
 function AboutUs() {
   const teamMembers = [
@@ -41,24 +42,31 @@ function AboutUs() {
         <div className="">
           {/* Company Overview */}
           <div>
-            <h2 className="mb-4 text-xl font-bold">Who Are We?</h2>
+            <Animation type="1">
+              <h2 className="mb-5 text-xl font-bold text-colorBrand2 md:text-3xl">
+                Who Are We?
+              </h2>
+              <p className="text-gray-700 mb-4">
+                At Probrand Handlers, we believe that every small and
+                medium-sized business (SME) possesses the potential for success.
+                Since our establishment in 2018, initially as a digital
+                marketing company, we've gained valuable insights into what is
+                practical and effective. Our clients have consistently expressed
+                satisfaction with our services. As a company that has expanded
+                to offer branding solutions, our passion remains dedicated to
+                assisting SMEs in establishing robust brands and fostering
+                meaningful and profitable connections with their target
+                audience.
+              </p>
+            </Animation>
 
-            <p className="text-gray-700 mb-4">
-              At Probrand Handlers, we believe that every small and medium-sized
-              business (SME) possesses the potential for success. Since our
-              establishment in 2018, initially as a digital marketing company,
-              we've gained valuable insights into what is practical and
-              effective. Our clients have consistently expressed satisfaction
-              with our services. As a company that has expanded to offer
-              branding solutions, our passion remains dedicated to assisting
-              SMEs in establishing robust brands and fostering meaningful and
-              profitable connections with their target audience.
-            </p>
-            <img
-              src="assets/img.jpg"
-              alt=""
-              className="h-40 w-full rounded object-cover"
-            />
+            <Animation type="1">
+              <img
+                src="assets/777.png"
+                alt=""
+                // className="h-40 w-full rounded object-cover"
+              />
+            </Animation>
           </div>
 
           {/* Team Members */}

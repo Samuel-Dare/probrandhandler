@@ -6,10 +6,12 @@ import HowItWorks from './pages/HowItWorks';
 import Services from './pages/Services';
 import AppLayout from './ui/AppLayout';
 import PageNotFound from './pages/PageNotFound';
+import ScrollToTop from './utils/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<Home />} />

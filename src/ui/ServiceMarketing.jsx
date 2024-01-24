@@ -7,7 +7,7 @@ function ServiceMarketing() {
         reverseOrder={true}
         removeBgColor={true}
         title="Marketing Solutions"
-        image="assets/img.jpg"
+        image="assets/333.png"
         l1="Marketing Strategy: Formulating an all-encompassing marketing strategy aligned with the brand strategy, focusing on delivering the right message to the right audience through the right channels."
         l2=" Marketing Automation: Assisting SMEs in utilizing marketing automation tools to streamline processes and enhance efficiency."
         l3="Content Marketing: Providing guidance to SMEs in creating high-quality content that captivates the target audience and drives conversions."

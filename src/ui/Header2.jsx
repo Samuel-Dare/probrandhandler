@@ -1,3 +1,5 @@
+import Animation from '../utils/Animation';
+
 export function HeaderTitle({ title }) {
   return (
     <h1 className="rounded-md text-3xl font-semibold text-colorGrey0 md:text-5xl">
@@ -21,7 +23,9 @@ function Header2({ label, title, bannerImage }) {
           backgroundPositionX: `${label === 'services' ? 'right' : ''}`,
         }}
       >
-        {title ? <HeaderTitle title={title} /> : ''}
+        <Animation type="1">
+          {title ? <HeaderTitle title={title} /> : ''}
+        </Animation>
       </div>
     </div>
   );
