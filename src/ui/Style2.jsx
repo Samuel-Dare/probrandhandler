@@ -27,7 +27,7 @@ const Style2 = ({
               <div className="flex flex-col">
                 <Animation type="2">
                   <img
-                    src="/assets/branding-solutions.png"
+                    src="assets/branding-solutions.png"
                     width="300"
                     alt="Service 1"
                     className="mx-auto mb-4 h-auto rounded-md"
@@ -46,7 +46,7 @@ const Style2 = ({
               <div className="flex flex-col">
                 <Animation type="3">
                   <img
-                    src="/assets/marketing-solutions.png"
+                    src="assets/marketing-solutions.png"
                     width="300"
                     alt="Service 1"
                     className="mx-auto mb-4 h-auto rounded-md"
@@ -65,7 +65,7 @@ const Style2 = ({
               <div className="flex flex-col">
                 <Animation type="2">
                   <img
-                    src="/assets/img.jpg"
+                    src="assets/img.jpg"
                     width="300"
                     alt="Service 1"
                     className="mx-auto mb-4 h-auto rounded-md"
@@ -85,7 +85,7 @@ const Style2 = ({
               <div className="flex flex-col">
                 <Animation type="3">
                   <img
-                    src="/assets/img.jpg"
+                    src="assets/img.jpg"
                     width="300"
                     alt="Service 1"
                     className="mx-auto mb-4 h-auto rounded-md"

@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col">
               <Animation type="2">
                 <img
-                  src="/assets/brand.png"
+                  src="assets/brand.png"
                   width="300"
                   alt="Service 1"
                   className="mx-auto mb-4 h-auto rounded-md"
@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col">
               <Animation type="3">
                 <img
-                  src="/assets/marketing.png"
+                  src="assets/marketing.png"
                   alt="Service 2"
                   width="300"
                   className="mx-auto mb-4 h-auto rounded-md"
@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col">
               <Animation type="2">
                 <img
-                  src="/assets/measurable-result.png"
+                  src="assets/measurable-result.png"
                   alt="Service 2"
                   width="300"
                   className="mx-auto mb-4 h-auto rounded-md"
@@ -97,7 +97,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col">
               <Animation type="3">
                 <img
-                  src="/assets/partnership.png"
+                  src="assets/partnership.png"
                   alt="Service 2"
                   width="300"
                   className="mx-auto mb-4 h-auto rounded-md"
