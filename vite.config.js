@@ -7,7 +7,7 @@ export default defineConfig(({ command, mode }) => {
   if (mode === 'development') {
     baseUrl = 'http://localhost:3000';
   } else if (mode === 'production') {
-    baseUrl = 'https://probrandhandlers.onrender.com';
+    baseUrl = 'https://www.probrandhandlers.com';
   }
 
   return {
