@@ -11,7 +11,7 @@ export default defineConfig(({ command, mode }) => {
   }
 
   return {
-    base: '/probrandhandler/',
+    base: '/probrandhandlers/',
     plugins: [react()],
     define: {
       'import.meta.env.VITE_BASE_URL': JSON.stringify(baseUrl),
